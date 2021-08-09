@@ -1,0 +1,35 @@
+<div class="container pt-5">
+  <h1 class="display-1 text-center">Temarios</h1>
+
+  <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel title="Tutoría I">
+      <ng-template ngbPanelContent>
+        <button class="btn btn-success"
+          (click)="verVideo('video-tutoria-1.mp4')">
+          Ver video
+        </button>
+      </ng-template>
+    </ngb-panel>
+
+    <ngb-panel title="Tutoría II">
+      <ng-template ngbPanelContent>
+
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Tutoría III">
+      <ng-template ngbPanelContent>
+
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Tutoría IV">
+      <ng-template ngbPanelContent>
+
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Tutoría V">
+      <ng-template ngbPanelContent>
+
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>
