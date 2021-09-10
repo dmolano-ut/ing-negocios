@@ -12,4 +12,20 @@ export class SaraComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  pausaFisica(): void
+  {
+    alert("Realizar actividades físicas varias");
+  }
+
+  pausaMental(): void
+  {
+    alert("Realizar actividad guiada de relajación");
+  }
+
+  juegoRapido(): void
+  {
+    alert("Realizar juego de tingo, tingo, tingo, tango, por ej.");
+  }
+
+
 }

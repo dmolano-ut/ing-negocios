@@ -1,0 +1,13 @@
+img{
+  display: flex;
+  margin: 5% auto 0 auto;
+}
+
+button{
+  margin-top:  20%;
+  margin-right: 10%;
+}
+
+h2, h5{
+  color: red;
+}

@@ -17,7 +17,7 @@ export class TemarioComponent implements OnInit {
   verVideo(ruta: string): void
   {
     const modalRef = this.ngbModalSvc.open(ModalVideoComponent, {
-      size: 'md'
+      size: 'xl'
     });
 
     modalRef.componentInstance.source = ruta;
